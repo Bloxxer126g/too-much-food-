@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tmf-popup">
+        <style>
+            .tmf-popup {
+                width: 50%;
+                height: 55%;
+                display: flex;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                position: fixed;
+                background-color: #f79a68;
+                border-radius: 1rem;
+                flex-direction: column;
+                z-index: 9999;
+            }
+            .tmf-title {
+                width: 100%;
+                text-align: center;
+                height: 10%;
+            }
+            .tmf-body {
+                width: 100%;
+                text-align: center;
+                font-size: 2em;
+            }
+            .tmf-dismiss {
+                background-color: #ff5f0960;
+                border-radius: 1rem;
+                height: 27%;
+                border: none;
+                margin: 5px;
+                font-size: 2em;
+            }
+        </style>
+        <h1 class="tmf-title">Info ℹ️</h1>
+        <p class="tmf-body">You bought 2x "Sainsbury's Mysterious Cheese 200g packet 3 slices" 3 days ago!</p>
+        <button class="tmf-dismiss" onclick="document.querySelector('.tmf-popup').remove()">Ok</button>
+    </div>
+</body>
+</html>

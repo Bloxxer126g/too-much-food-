@@ -12,6 +12,7 @@
     {
         "js": ["content.js"],
         "matches": [
+            "https://www.sainsburys.co.uk/gol-ui/checkout/summary",
             "https://*.sainsburys.co.uk/*"
         ] 
     }

@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.7"
+  },
+  "name": "too-much-food-",
+  "version": "1.0.0",
+  "description": "Stop buying too much food from Sainsburies!",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild content.src.js --bundle --outfile=content.js",
+    "watch": "esbuild content.src.js --bundle --outfile=content.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloxxer126g/too-much-food-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bloxxer126g/too-much-food-/issues"
+  },
+  "homepage": "https://github.com/Bloxxer126g/too-much-food-#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
