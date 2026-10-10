@@ -20356,8 +20356,8 @@ ${suffix}`;
   var require_content_src = __commonJS({
     "content.src.js"() {
       init_dist4();
-      var SUPABASE_PUBLIC_KEY = "sb_publishable_xFloLGUj-lFUruqI0tdZjA_HixNodJ3";
-      var SUPABASE_URL = "https://menkgxgkrwllvolymuxf.supabase.co";
+      var SUPABASE_PUBLIC_KEY = "sb_publishable_FENjz18QT5oVn3M97jhhcA_SL0-S16E";
+      var SUPABASE_URL = "https://zmhntzagflrsfdcbpatq.supabase.co";
       var supabase = createClient(SUPABASE_URL, SUPABASE_PUBLIC_KEY);
       function waitForElement(selector, timeout = 5e3) {
         return new Promise((resolve, reject) => {
